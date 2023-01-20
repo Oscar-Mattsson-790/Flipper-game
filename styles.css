@@ -1,23 +1,59 @@
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: salmon;
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
 .grid {
   position: absolute;
   width: 560px;
   height: 300px;
-  border: solid 1px black;
+  border: solid 5px black;
+  border-radius: 5px;
   margin-top: 80px;
+  background: rgb(195, 195, 239);
 }
 
 .user {
   position: absolute;
   width: 100px;
   height: 20px;
-  background-color: blueviolet;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(235, 39, 224, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 3px;
 }
 
 .block {
   position: absolute;
   width: 100px;
   height: 20px;
-  background-color: blue;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(25, 67, 143, 1) 13%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .ball {
@@ -25,5 +61,13 @@
   width: 20px;
   height: 20px;
   border-radius: 10px;
-  background-color: red;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 0, 0, 1) 69%,
+    rgba(255, 1, 1, 1) 100%
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
